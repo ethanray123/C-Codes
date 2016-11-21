@@ -1,0 +1,98 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(Images/Best-Website-Background-Images20.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#header {
+	margin-top: -20px;
+	background-color: #CCB297;
+	height: 7%;
+	width: 100%;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+#content{
+	font-size: 20px;
+	color: white;
+}
+#footer {
+	height: 6%;
+	width: 100%;
+	background-color: #FFDEBD;
+	color: black;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+
+#nav ul {
+	list-style: none;
+	/*background-color: #FFDEBD;*/
+	text-align: center;
+	padding: 0;
+	margin: 0 auto;	
+	width: 70%;
+}	
+
+#nav li {
+	font-family: Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 40px;
+	height: 40px;
+	border-bottom: 1px solid #888;
+	font-weight: 100;
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+
+#nav a:hover{
+	background-color: black;
+}
+
+@media screen and (min-width: 600px) {
+	#nav li {
+		width: 120px;
+		border-bottom: none;
+		height: 50px;
+		line-height: 50px;
+		font-size: 1.4em;
+		display: inline-block;
+		margin-right: -4px;
+	}
+
+}
+
+#logo{
+	height:100px;
+	width: 100px;
+	float: top left;
+	position: absolute;
+}
+
+/*Images*/
+#pa{
+	height:250px;
+	width:250px; 
+}
+#ma{
+	height:250px;
+	width:250px;
+}
+#yo{
+	height:250px;
+	width: 250px;
+}
+#me{
+	height:250px;
+	width:300px;
+	margin-left:12px; 
+}

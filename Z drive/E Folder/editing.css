@@ -1,0 +1,55 @@
+body{
+		margin:0px;
+		padding:0px;
+	}
+	.box{
+			width:80%;
+			height:100%;
+			border:1px solid black;
+			margin-left:20%;
+			font-size:20;
+		}
+		#content1{
+			color:red;
+			background-image: url(../Images/sword_art_online_wallpaper_by_greev-d5h7n09.jpg);
+		}
+		#content2{
+			background-image: url(../Images/sword_art_online_wallpaper_by_greev-d5h7n09.jpg);
+			color:red;
+		}
+		#content3{
+			color:red;
+			background-image: url(../Images/sword_art_online_wallpaper_by_greev-d5h7n09.jpg);
+		}
+		#content4{
+			color:red;
+			background-image: url(../Images/sword_art_online_wallpaper_by_greev-d5h7n09.jpg);
+		}
+		#content5{
+			color:red;
+			background-image: url(../Images/sword_art_online_wallpaper_by_greev-d5h7n09.jpg);
+		}
+		#content6{
+			color:red;
+			background-image: url(../Images/sword_art_online_wallpaper_by_greev-d5h7n09.jpg);
+		}
+		#sidebar{
+			width:20%;
+			height:100%;
+			background-image: url(../Images/dark_knight_by_justmick-d72jg06.jpg);
+			float:left;
+			position:fixed;
+			text-align:center;
+			font-family: Impact, Arial;
+			color:white;
+			font-size: 25;
+		}
+		a{
+			text-decoration:none;
+			color:white;
+			display:block;
+			width:100%;
+		}
+		a:hover{
+			background-color:red;
+		}
